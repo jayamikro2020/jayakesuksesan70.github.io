@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhendra Art Gallery</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header >
+      <div class="container" >
+        <div class="header-left" >
+          <img class="logo" src="../logo hendra gallery.png" >
+        </div>
+        <!-- Tambahkan ikon menu disini -->
+         <ul class="topnav">
+           <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+           <li class="icon2"><a href="../index.html#home">Home</a></li>
+           <li class="icon2"><a href="../index.html#profile" >Profile</a></li>
+           <li class="icon2"><a href="../index.html#gallery" >Gallery</a></li>
+           <li class="icon2"><a href="../index.html#contact" >Contact</a></li>
+         </ul>
+
+         <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+         </script>
+
+        <!-- <a href="menu-icon"></a>
+        <span class="fa fa-bars menu-icon"></span>
+        </a>
+        <div class="header-right">
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#lukisan">Lukisan</a>
+          <a href="#kontak" class="login">Kontak</a>
+        </div> -->
+      </div>
+    </header>
+
+    
+    <div class="gallery-wrapper" id="gallery">
+      <div class="container">
+        <div class="heading" >
+          <h1>Gallery</h1>
+        </div>
+
+        <div class="gallerys">
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-1">
+              <img src="../image/thumbnail/Bukit_gundaling.jpg" alt="Bukit Gundaling">
+              <span>Bukit Gundaling</span>
+              </a>
+            
+              <!-- overlay -->
+              <div class="overlay" id="gambar-1">
+                <!-- <a href="#gambar-4" class="prev">Previous</a> -->
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Bukit_gundaling.jpg" alt="Bukit Gundaling">
+                <a href="#gambar-2" class="next">Next</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-2">
+              <img src="../image/thumbnail/Danau_toba_di_kala_senja.jpg" alt="Danau Toba di kala senja">
+              <span>Danau Toba di kala senja</span>
+              </a>
+
+              <!-- overlay -->
+              <div class="overlay" id="gambar-2">
+                <a href="#gambar-1" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Danau_toba_di_kala_senja.jpg" alt="Danau toba di kala senja.jpg">
+                <a href="#gambar-3" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-3">
+              <img src="../image/thumbnail/Sungai_deli.jpg" alt="Sungai deli">
+              <span>Sungai Deli</span>
+              </a>
+
+            <!-- overlay -->
+              <div class="overlay" id="gambar-3">
+                <a href="#gambar-2" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Sungai_deli.jpg" alt="Sungai deli">
+                <a href="#gambar-4" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-4">
+              <img src="../image/thumbnail/Ikan_koi.jpg" alt="Ikan Koi">
+              <span>Ikan Koi</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-4">
+                <a href="#gambar-3" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Ikan_koi.jpg" alt="Ikan Koi">
+                <!-- <a href="#gambar-1" class="next">Next</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-5">
+              <img src="../image/thumbnail/Alam_liar.jpg" alt="Alam Liar">
+              <span>Alam liar</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-5">
+                <a href="#gambar-4" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Alam_liar.jpg" alt="Alam liar">
+                <a href="#gambar-6" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-6">
+              <img src="../image/thumbnail/Anggrek_bulan.jpg" alt="Anggrek Bulan">
+              <span>Anggrek Bulan</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-6">
+                <a href="#gambar-5" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Anggrek_bulan.jpg" alt="Anggrek Bulan">
+                <a href="#gambar-7" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-7">
+              <img src="../image/thumbnail/Arwana.jpg" alt="Arwana">
+              <span>Arwana</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-7">
+                <a href="#gambar-6" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Arwana.jpg" alt="Arwana">
+                <a href="#gambar-8" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-8">
+              <img src="../image/thumbnail/Batu_lobang_di_sibolga.jpg" alt="Batu lobang di sibolga">
+              <span>Batu lobang di sibolga</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-8">
+                <a href="#gambar-7" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Batu_lobang_di_sibolga.jpg" alt="Batu lobang di sibolga">
+                <!-- <a href="#gambar-8" class="next">Next</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-9">
+              <img src="../image/thumbnail/Bunga_anggrek_bulan.jpg" alt="Bunga Anggrek Bulan">
+              <span>Bunga Anggrek Bulan</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-9">
+                <a href="#gambar-8" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Bunga_anggrek_bulan.jpg" alt="Bunga Anggrek Bulan">
+                <a href="#gambar-10" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-10">
+              <img src="../image/thumbnail/Bunga_merah.jpg" alt="Bunga Merah">
+              <span>Bunga Merah</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-10">
+                <a href="#gambar-9" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Bunga_merah.jpg" alt="Bunga Merah">
+                <a href="#gambar-11" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-11">
+              <img src="../image/thumbnail/Danau_di_kaki_bukit.jpg" alt="Danau di kaki bukit">
+              <span>Danau di kaki bukit</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-11">
+                <a href="#gambar-10" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Danau_di_kaki_bukit.jpg" alt="Danau di kaki bukit">
+                <a href="#gambar-12" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-12">
+              <img src="../image/thumbnail/Danau_toba.jpg" alt="Danau Toba">
+              <span>Danau Toba</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-12">
+                <a href="#gambar-11" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Danau_toba.jpg" alt="Danau Toba">
+                <a href="#gambar-13" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-13">
+              <img src="../image/thumbnail/Jambu_air.jpg" alt="Jambu Air">
+              <span>Jambu Air</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-13">
+                <a href="#gambar-12" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Jambu_air.jpg" alt="Jambu Air">
+                <a href="#gambar-14" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-14">
+              <img src="../image/thumbnail/Jalan_teduh.jpg" alt="Jalan teduh">
+              <span>Jalan teduh</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-14">
+                <a href="#gambar-13" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Jalan_teduh.jpg" alt="Jalan teduh">
+                <a href="#gambar-15" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-15">
+              <img src="../image/thumbnail/Keheningan_hutan.jpg" alt="Keheningan hutan">
+              <span>Keheningan hutan</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-15">
+                <a href="#gambar-14" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Keheningan_hutan.jpg" alt="Keheningan hutan">
+                <a href="#gambar-16" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-16">
+              <img src="../image/thumbnail/Kali_kecil.jpg" alt="Kali kecil">
+              <span>Kali kecil</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-16">
+                <a href="#gambar-15" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Kali_kecil.jpg" alt="Kali kecil">
+                <a href="#gambar-17" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-17">
+              <img src="../image/thumbnail/Ombak_di_waktu_senja.jpg" alt="Ombak di waktu senja">
+              <span>Ombak di waktu senja</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-17">
+                <a href="#gambar-16" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Ombak_di_waktu_senja.jpg" alt="Ombak di waktu senja">
+                <a href="#gambar-18" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-18">
+              <img src="../image/thumbnail/Ombak_dan_mendung.jpg" alt="Ombak dan mendung">
+              <span>Ombak dan mendung</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-18">
+                <a href="#gambar-17" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Ombak_dan_mendung.jpg" alt="Ombak dan mendung">
+                <a href="#gambar-19" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-19">
+              <img src="../image/thumbnail/Mbah_mangun.jpg" alt="Mbah Mangun">
+              <span>Mbah Mangun</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-19">
+                <a href="#gambar-18" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Mbah_mangun.jpg" alt="Mbah Mangun">
+                <a href="#gambar-20" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-20">
+              <img src="../image/thumbnail/Panen_kelapa_sawit.jpg" alt="Panen Kelapa Sawit">
+              <span>Panen Kelapa Sawit</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-20">
+                <a href="#gambar-19" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Panen_kelapa_sawit.jpg" alt="Panen Kelapa Sawit">
+                <a href="#gambar-21" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-21">
+              <img src="../image/thumbnail/Profile_1998.jpg" alt="Profile 1998">
+              <span>Profile 1998</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-21">
+                <a href="#gambar-20" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Profile_1998.jpg" alt="Profile 1998">
+                <a href="#gambar-22" class="next">Next</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery">
+            <div class="gallery-icon">
+              <a href="#gambar-22">
+              <img src="../image/thumbnail/Telaga_di_tengah_hutan.jpg" alt="Telaga di tengah hutan">
+              <span>Telaga di tengah hutan</span>
+              </a>
+  
+              <!-- overlay -->
+              <div class="overlay" id="gambar-22">
+                <a href="#gambar-21" class="prev">Previous</a>
+                <a href="#" class="close">x close</a>
+                <img src="../image/full size/Telaga_di_tengah_hutan.jpg" alt="Telaga di tengah hutan">
+                <!-- <a href="#gambar-22" class="next">Next</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+  
+    <footer>
+      <div class="container">
+        <img src="../logo hendra gallery.png">
+        <p>Art of Painting</p>
+      </div>
+    </footer>
+  </body>
+</html>

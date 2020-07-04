@@ -1,0 +1,206 @@
+/* Untuk Tablet */
+@media screen and (max-width: 1000px) {
+
+  .logo {
+  width: 230px;
+  margin-top: 15px;
+  }
+  
+  
+
+  .gallery {
+    width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .profile-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media screen and (max-width: 680px) {
+
+  .logo {
+    width: 150px;
+    margin-top: 23px;
+  }
+  
+  .gallerys {
+    margin-left: 40px;
+  }
+
+  .gallery {
+    width: 100%;
+
+  }
+  
+  /*overlay*/
+  .overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+  z-index: 9999;
+  transition: 0s;
+  text-align: center;
+  padding: 100px;
+}
+
+.overlay:target {
+
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+
+.overlay img {
+  /*max-height: 100%;*/
+  width: 100%;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.5);
+}
+
+.overlay:target img {
+  animation: zoomandfade 1s;
+}
+.close {
+  position: absolute;
+  margin-left: -10000px;
+}
+
+.overlay:target .close {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  color: white;
+  text-decoration: none;
+  margin-left: -20px;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+}
+
+/* navigasi */
+.next, .prev {
+  position: absolute;
+  margin-left: -10000px;
+}
+
+.overlay:target .next {
+  width: 20%;
+  height: 20%;
+  /*background-image: url(image/next_but.png);
+  position: absolute;
+  text-indent: -9999px;*/
+  top: 25%;
+  margin-left: 10px;
+}
+
+.overlay:target .prev {
+  width: 20%;
+  height: 20%;
+  /*background-image: url(image/prev_but.png);
+  position: absolute;
+  text-indent: -9999px;*/
+  top: 25%;
+  margin-left: -110px;
+}
+
+
+  /*----------------------*/
+
+
+  /*.gallery-wrapper {
+    margin: auto;
+  }*/
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook, .signup {
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Saat lebar layar kurang dari 680 pixel, sembunyikan semua menu item kecuali item yang pertama yaitu("Home"). Tampilkan juga list item yang berisi link untuk membuka menu yaitu (li.icon) */
+  ul.topnav li/*:not(:first-child)*/ {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+
+
+
+/* Class dengan nama "responsive" akan ditambahkan oleh JavaScript saat user mengklik icon. Munculnya Class ini akan mendisplay isi list menu 
+*/
+  @media screen and (max-width:680px) {
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  /*ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }*/
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: right;
+  }
+
+ 
+
+}
+/*  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+  }*/
+
+  /*.gallery {
+  float: left;
+  width: 100%;
+}*/
+
+
+  .profile-wrapper h1 {
+   /* font-size: 24px;*/
+    line-height: 50px;
+  }
+  
+  .profile-wrapper p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+}
